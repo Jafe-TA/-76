@@ -1,0 +1,44 @@
+<!--
+
+ Ingresar el sueldo bruto de un trabajador. Si supera a 10000 aplicar un descuento del 10%, en caso contrario el descuento es del 5%.
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+  <style>
+    #cronometro {
+      font-size:50px;
+      color:rgb(212, 6, 6);
+    }
+  </style>    
+</head>
+<body>
+<script>
+
+var v1=prompt('Ingrese su sueldo:','');
+  v1=parseInt(v1);
+  var mayor;
+  if(v1>=10000){
+      var descuento
+      descuento=v1*0.1
+      document.write('Usted posee un descuento de 10%: '+descuento);
+  }else{
+    if(v1<10000){
+      var descuento
+      descuento=v1*0.05
+      document.write('Usted posee un descuento de 5%: '+descuento);
+  }  
+  }
+
+
+
+</script>
+  
+</body>
+</html>
+
+
+
